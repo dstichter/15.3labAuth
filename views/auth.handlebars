@@ -1,0 +1,11 @@
+<h1>Events</h1>
+
+{{#if isAuthenticated}}
+  <h2>Hello there {{ user.username}}</h2>
+  <h3>Upcoming Events</h3>
+  <h3>Past Events</h3>
+{{else}}
+  <h2>Hello!</h2>
+  <h3>Past Events</h3>
+
+{{/if}}
