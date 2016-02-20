@@ -3,9 +3,58 @@
 {{#if isAuthenticated}}
   <h2>Hello there {{ user.username}}</h2>
   <h3>Upcoming Events</h3>
+    <table>
+      <th>
+        <tr>
+          <td>Date</td>
+          <td>Event</td>
+        </tr>
+      </th>
+      <tb>
+        <tr>
+          <td> 03/01/16</td>
+          <td>Networking Event</td>
+        </tr> 
+        <tr>
+          <td>04/30/16</td>
+          <td>Course Completed</td>
+        <tr>  
+      </tb> 
+    </table>
+
+
   <h3>Past Events</h3>
+    <table>
+    <th>
+      <tr>
+        <td>Date</td>
+        <td>Event</td>
+      </tr>
+    </th>
+    <tb>
+      <tr>
+        <td>12/25/15</td>
+        <td>Christmas</td>
+      </tr>  
+    </tb> 
+    </table> 
 {{else}}
   <h2>Hello!</h2>
   <h3>Past Events</h3>
+   <table>
+    <th>
+      <tr>
+        <td>Date</td>
+        <td>Event</td>
+      </tr>
+    </th>
+    <tb>
+      <tr>
+        <td>12/25/15</td>
+        <td>Christmas</td>
+      </tr>  
+    </tb> 
+    </table> 
+
 
 {{/if}}
